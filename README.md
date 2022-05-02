@@ -1,4 +1,4 @@
-# ristau_berton_huang_meneses_w207_final_project
+# roBach_Music_Classification
 
 This is a school group project to train models to accurately identify instrumental ensembles of a song using MusicNet Classical Music Dataset. The slide deck can be found in this repo.
 

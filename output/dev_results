@@ -1,0 +1,113 @@
+Model #: 1.1.1
+Logistic Regression Baseline Model (wav data only)
+CV Scores: [0.86865022 0.88865687 0.86914011 0.86424772 0.93960864]
+CV Average and standard deviation: 0.8860607118376898 +/- 0.028069053819395614
+Model #: 1.1.2
+Logistic Regression with PCA (wav data only)
+CV Scores [0.56137119 0.63606575 0.56957999 0.6098125  0.58377868]
+CV Average and standard deviation: 0.592121620802015 +/- 0.027449490564249102
+Model #: 1.2.1
+Logistic Regression Baseline Model (midi data only)
+CV Scores [0.60700212 0.69156365 0.64708525 0.61101106 0.69564979]
+CV Average and standard deviation: 0.6504623758731147 +/- 0.037915226747904124
+Model #: 1.2.2
+Logistic Regression with PCA (midi data only)
+CV Scores [0.30237059 0.30629748 0.13595105 0.31218781 0.31218781]
+CV Average and standard deviation: 0.27379894625177637 +/- 0.06902455626074773
+Model #: 1.3.1
+Logistic Regression Baseline Model (combined midi and wav data)
+CV Scores [0.75553733 0.80632889 0.87739767 0.76783724 0.91410795]
+CV Average and standard deviation: 0.8242418150180602 +/- 0.06184516768275534
+Model #: 1.3.2
+Logistic Regression with PCA (combined midi and wav data)
+CV Scores [0.30237059 0.28550149 0.28550149 0.31218781 0.30769231]
+CV Average and standard deviation: 0.2986507368831103 +/- 0.011177165052539052
+Model #: 2.1.1
+Naive Bayes Baseline Model (wav data only)
+CV Scores [0.66838433 0.70943396 0.68252735 0.65248458 0.62065018]
+CV Average and standard deviation: 0.666696081533981 +/- 0.029672200294891975
+Model #: 2.2.1
+Naive Bayes Baseline Model (midi data only)
+CV Scores [0.58334988 0.34132445 0.69291669 0.56844181 0.75836225]
+CV Average and standard deviation: 0.588879019523674 +/- 0.1423235166205818
+Model #: 2.3.1
+Naive Bayes Baseline Model (combined midi and wav data)
+CV Scores [0.73519671 0.76483122 0.76776437 0.73039216 0.71722722]
+CV Average and standard deviation: 0.7430823327079817 +/- 0.01986920881385733
+Model #: 3.1.1
+Decision Tree Baseline Model (wav data only)
+CV Scores [0.72745952 0.77567092 0.79481132 0.77145551 0.66595442]
+CV Average and standard deviation: 0.7470703369096457 +/- 0.04616537327436552
+Model #: 3.2.1
+Decision Tree Baseline Model (midi data only)
+CV Scores [0.81895777 0.78785778 0.81469712 0.92220937 0.85865682]
+CV Average and standard deviation: 0.8404757738402061 +/- 0.04670577568106723
+Model #: 3.3.1
+Decision Tree Baseline Model (combined midi and wav data)
+CV Scores [0.80880503 0.82527653 0.80332963 0.90938886 0.88919414]
+CV Average and standard deviation: 0.8471988373685736 +/- 0.0436128031564995
+Model #: 4.1.1
+Random Forest Baseline Model (wav data only)
+CV Scores [0.78730369 0.75520077 0.68104223 0.81206294 0.78966219]
+CV Average and standard deviation: 0.7650543635995474 +/- 0.045750444111543
+Model #: 4.1.2
+Random Forest with SMOTE and no hyperparameter tuning (wav data only)
+CV Scores [0.99555378 0.98661849 0.99555378 1.         1.        ]
+CV Average and standard deviation: 0.9955452094750207 +/- 0.004886240410560162
+Model #: 4.2.1
+Random Forest Baseline midel (midi data only)
+CV Scores [0.84209344 0.81496193 0.89420722 0.91858974 0.86337701]
+CV Average and standard deviation: 0.8666458683271759 +/- 0.03672201072645839
+Model #: 4.2.2
+Random Forest with SMOTE and no hyperparameter tuning (midi data only)
+CV Scores [0.99555378 0.99555378 0.99555378 0.99555378 0.98661849]
+CV Average and standard deviation: 0.9937667203015735 +/- 0.0035741135296171846
+Model #: 4.3.1
+Random Forest Baseline Model (midi and wav data)
+CV Scores [0.70286272 0.79078839 0.83299961 0.82696342 0.855052  ]
+CV Average and standard deviation: 0.8017332284031362 +/- 0.053576502220151895
+Model #: 4.3.2
+Random Forest with SMOTE (midi and wave data)
+CV Scores [0.98681349 1.         0.98661849 0.99109687 1.        ]
+CV Average and standard deviation: 0.9929057695674659 +/- 0.006009560297427548
+Model #: 5.1.1
+SVM Baseline Model (wav data only)
+CV Scores [0.4500337  0.57625949 0.546875   0.56943937 0.56943937]
+CV Average and standard deviation: 0.5424093850341674 +/- 0.0472446385868813
+Model #: 5.1.2
+SVM with hyperparameter tuning (wav data only)
+CV Scores [0.86308037 0.89613527 0.91137238 0.90434783 0.9458653 ]
+CV Average and standard deviation: 0.9041602276293361 +/- 0.02662073767043021
+Model #: 5.1.3
+SVM with hyperparameter tuning and PCA (wav data only)
+CV Scores [0.88492926 0.86422578 0.87544813 0.91543052 0.91382869]
+CV Average and standard deviation: 0.8907724766879015 +/- 0.020558763515073564
+Model #: 5.1.4
+SVM with Hyperparameter tuning, PCA, SMOTE (wav data only)
+CV Scores [0.99101307 0.98661849 0.99555378 1.         0.99555378]
+CV Average and standard deviation: 0.9937478238541055 +/- 0.004558922324772249
+Model #: 5.1.5
+SVM with Hyperparameter tuning, PCA, SMOTE, and Min Max Scaler (wav data only)
+CV Scores [0.79572816 0.83272429 0.78571959 0.85508471 0.7714211 ]
+CV Average and standard deviation: 0.8081355674777224 +/- 0.03102643765176883
+Model #: 5.1.6
+SVM with Hyperparameter tuning, PCA, SMOTE, and Standard Scaler (wav data only)
+CV Scores [0.99110933 0.97320458 0.99101307 1.         0.99109687]
+CV Average and standard deviation: 0.9892847696574811 +/- 0.008752011056756109
+Model #: 5.2.1
+SVM Baseline Model (midi data only)
+CV Scores [0.61506698 0.64457282 0.63867212 0.64816685 0.65613692]
+CV Average and standard deviation: 0.6405231357536184 +/- 0.013928807581877036
+Model #: 5.3.1
+SVM with Baseline Model (midi and wav data)
+CV Scores [0.61506698 0.64457282 0.63867212 0.64816685 0.65613692]
+CV Average and standard deviation: 0.6405231357536184 +/- 0.013928807581877036
+Model#: 6.1.1
+Neural Network (wav data only)
+Test Set F1-score: 100.00%
+Model#: 6.2.1
+Neural Network (midi data only)
+Test Set F1-score: 64.42%
+Model#: 6.3.1
+Neural Network (midi and wav data)
+Test Set F1-score: 62.04%

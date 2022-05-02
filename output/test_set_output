@@ -1,0 +1,39 @@
+Model #: 1
+Neural Network Baseline (wav data only)
+F1 Score: 0.8570947570947571
+Model #: 2
+Random Forest (wav data only)
+F1 Score: 0.6914081996434938
+Model #: 3
+SVM - Spectral - w/Hyperparameter Tuning + PCA + SMOTE (wav data only)
+F1 Score: 0.7168503894980209
+Model #: 4
+SVM - Spectral - w/Hyperparameter Tuning + PCA + SMOTE + StandardScaler (wav data only)
+F1 Score: 0.7035353535353535
+Model #: 5
+Logistic Regression - Spectral - Baseline (wav data only)
+F1 Score: 0.7276106839539676
+Model #: 6
+SVM - Spectral - w/Hyperparameter Tuning (wav data only)
+F1 Score: 0.701661801186903
+Model #: 7
+SVM - Spectral - W/Hyperparameter Tuning + PCA (wav data only)
+F1 Score: 0.6629899512252454
+Model #: 8
+Random Forest - Midi - Baseline (wav data only)
+F1 Score: 0.6593306196291271
+Model #: 9
+Decision Tree Baseline Model (wav data only)
+F1 Score: 0.70819539937187
+Model #: 10
+SVM with Hyperparameter tuning, PCA, SMOTE, and Min Max Scaler (wav data only)
+F1 Score: 0.3947788465278837
+Model #: 11
+Naive Bayes Baseline Model (wav data only)
+F1 Score: 0.6057387601505249
+Model #: 12
+Logistic Regression with PCA (wav data only)
+F1 Score: 0.5478549866480901
+Model #: 13
+SVM Baseline Model (wav data only)
+F1 Score: 0.470521348570129
